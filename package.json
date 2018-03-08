@@ -1,19 +1,16 @@
 {
-
   "name": "redux-combine-reducers-lab",
   "version": "0.1.0",
   "description": "Learn about combine reducers",
   "main": "src/index.js",
   "scripts": {
-    "debug": "node-debug --hidden node_modules _mocha --watch",
-    "debug-ide": "./bin/debug-ide",
     "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json",
     "test:watch": "npm run test -- --watch",
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://https://github.com/learn-co-curriculum/redux-combine-reducers-lab.git"
+    "url": "git+ssh://git@github.com/learn-co-curriculum/introduction-to-react-assessment.git"
   },
   "keywords": [
     "javascript",
@@ -23,10 +20,9 @@
   "author": "The Flatiron School",
   "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
-    "url": "https://github.com/learn-co-curriculum/redux-combine-reducers-lab/issues"
+    "url": "https://github.com/learn-co-curriculum/introduction-to-react-assessment/issues"
   },
-
-  "homepage": "https://github.com/learn-co-curriculum/redux-combine-reducers-lab#readme",
+  "homepage": "https://github.com/learn-co-curriculum/introduction-to-react-assessment#readme",
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-core": "^6.17.0",
@@ -35,12 +31,11 @@
     "babel-preset-react": "^6.16.0",
     "enzyme": "^2.5.1",
     "expect": "^1.20.2",
-    "fs": "0.0.1-security",
     "jsdom": "^9.4.1",
     "mocha": "^3.0.1",
     "mocha-multi": "^0.9.1",
-    "node-inspector": "^0.12.8",
     "react-addons-test-utils": "^15.3.2",
+    "react-test-renderer": "^15.3.0",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.2"
   },
