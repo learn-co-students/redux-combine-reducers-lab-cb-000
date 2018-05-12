@@ -1,5 +1,4 @@
 {
-
   "name": "redux-combine-reducers-lab",
   "version": "0.1.0",
   "description": "Learn about combine reducers",
@@ -25,7 +24,6 @@
   "bugs": {
     "url": "https://github.com/learn-co-curriculum/redux-combine-reducers-lab/issues"
   },
-
   "homepage": "https://github.com/learn-co-curriculum/redux-combine-reducers-lab#readme",
   "devDependencies": {
     "babel": "^6.5.2",
@@ -45,11 +43,15 @@
     "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
+    "and": "0.0.3",
     "babel-preset-stage-1": "^6.16.0",
+    "npm": "^6.0.1",
     "react": "^15.3.0",
     "react-dom": "^15.3.0",
-    "react-redux": "^4.4.5",
+    "react-redux": "^4.4.9",
     "react-router": "^2.8.1",
-    "redux": "^3.6.0"
+    "redux": "^3.6.0",
+    "start": "^5.1.0",
+    "then": "0.0.1"
   }
 }
